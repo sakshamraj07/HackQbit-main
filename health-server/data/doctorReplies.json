@@ -1,0 +1,30 @@
+[
+  {
+    "keywords": ["fever", "temperature", "flu"],
+    "reply": "It sounds like you have a fever. Please rest, stay hydrated, and consider taking paracetamol if needed."
+  },
+  {
+    "keywords": ["cough", "cold", "sore throat"],
+    "reply": "A mild cough or cold can be managed with warm fluids and rest. If it persists for more than a week, consult a doctor."
+  },
+  {
+    "keywords": ["headache", "migraine"],
+    "reply": "For headaches, ensure you’re hydrated and have had enough sleep. If the pain is severe or frequent, we should schedule a consultation."
+  },
+  {
+    "keywords": ["stomach", "pain", "cramps"],
+    "reply": "It seems like you have stomach pain. Avoid spicy food and drink warm water. If pain continues, we can check for infection."
+  },
+  {
+    "keywords": ["anxiety", "stress", "depression"],
+    "reply": "Mental health is very important. Try relaxation exercises and get enough sleep. Talking to a counselor could also help."
+  },
+  {
+    "keywords": ["skin", "rash", "acne"],
+    "reply": "For skin issues, keep the area clean and avoid using harsh products. If redness or swelling increases, we should examine it."
+  },
+  {
+    "keywords": ["diet", "nutrition", "weight"],
+    "reply": "A balanced diet with fruits, vegetables, and lean proteins is key. Avoid junk food and sugary drinks."
+  }
+]

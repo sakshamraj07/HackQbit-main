@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌿 Smooth scale + drift effect */
+@keyframes slow-zoom {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  50% {
+    transform: scale(1.05) translate(2%, 2%);
+  }
+  100% {
+    transform: scale(1) translate(0, 0);
+  }
+}
+.animate-slow-zoom {
+  animation: slow-zoom 40s ease-in-out infinite;
+}
+
+/* 💨 Floating up and down */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+.animate-float {
+  animation: float 10s ease-in-out infinite;
+}
+
+/* 🌊 Slower floating variation */
+@keyframes float-slow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+}
+.animate-float-slow {
+  animation: float-slow 15s ease-in-out infinite;
+}
+
+/* 🌈 ECG pulse glow */
+@keyframes pulse-glow {
+  0%, 100% {
+    stroke-opacity: 0.3;
+  }
+  50% {
+    stroke-opacity: 1;
+  }
+}
+svg path {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+/* 🌊 Continuous horizontal wave */
+@keyframes wave {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200px);
+  }
+}
+.animate-wave {
+  animation: wave 8s linear infinite;
+}
